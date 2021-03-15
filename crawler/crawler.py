@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 class Crawler:
     def __init__(self):
         self.base_url = "https://myanimelist.net/character/"
-        database = "waifuDB.db"
+        database = "../waifuDB.db"
         self.conn = self.create_connection(database)
         i = self.findLastCharacterMyAnimeList()
         while (True):
