@@ -136,7 +136,7 @@ class Bot:
                 if util.compare_names(waifu.getName(), waifu.getNickname(), context.args):
                     response = self.group.getMarried(group_id, user_id, waifu.getID(), waifu.getName())
                     if response == 0:
-                        msg = self.response.CASAMENTO + "\nSua nova esposa é "+waifu.getName()+" ("+waifu.getAnime()+")\nFelicidades ao casal."
+                        msg = self.response.CASAMENTO + "\nYour new waifu is "+waifu.getName()+" ("+waifu.getAnime()+")\n."
                         context.bot.send_message(chat_id=group_id, text=msg, reply_to_message_id=msg_to_reply)
                     elif response == 1:
                         context.bot.send_message(chat_id=group_id, text=self.response.RUN_MSG_2)
