@@ -1,0 +1,9 @@
+RF 1 - Cada usuário pertencerá a um grupo no momento que iniciar o bot
+RF 2 - Um personagem pode casar-se com usuários diferentes se eles não pertencerem ao mesmo grupo
+RF 3 - Eventualmente, um personagem aleatório irá aparecer para o usuário pelo bot
+RF 4 - O usuário poderá casar-se com o personagem se acertar o nome dele
+RF 5 - Se o usuário não adivinhar o nome em um tempo específico, o personagem sumirá
+
+RNF 1 - As informações do usuário serão salvas em um banco de dados
+RNF 2 - As informações dos personagens virão de um web crawler no site myanimelist
+RNF 3 - O bot irá rodar no Telegram

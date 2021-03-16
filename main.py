@@ -1,9 +1,6 @@
-from domain.bot import Bot
+from interface.bot import Bot
 import telegram
 from telegram import Message
-from domain.group import Group
-from domain.waifu import Waifu
-from domain.responses import Responses
 import util
 from telegram.ext import Updater, InlineQueryHandler, CommandHandler, MessageHandler, RegexHandler, Filters, CallbackContext
 

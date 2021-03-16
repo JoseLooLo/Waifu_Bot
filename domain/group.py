@@ -1,6 +1,6 @@
 
 from .waifu import Waifu
-from database.db import DB
+from servicos.db import DB
 
 class Group:
     def __init__(self):

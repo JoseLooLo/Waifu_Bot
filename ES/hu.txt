@@ -1,0 +1,11 @@
+1 - Me casar
+
+Como usuário, eu gostaria de poder me casar com os personagens.
+
+2 - Verificar meu personagem favorito
+
+Como usuário, eu quero poder verificar as informações do meu personagem favorito, para saber se ele já foi pego por algum membro do grupo.
+
+3 - Verificar os personagens que obtive
+
+Como usuário, eu quero poder verificar informações sobre todos os personagens que consegui obter no meu grupo atual.
